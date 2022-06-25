@@ -1,6 +1,9 @@
 import React from "react";
+
 import './styles.css'
+
 import {HeaderComponent} from "../../components/header/header.component";
+import {FooterComponent} from "../../components/footer/footer.component";
 
 export const MainPage = () => {
   return (
@@ -25,6 +28,7 @@ export const MainPage = () => {
                   <div><p className='desc'><span className='num'>94%</span><br />положительных отзывов</p></div>
                   <div><p className='desc'><span className='num'>24/7</span><br />поддержка</p></div>
               </div>
+              <FooterComponent />
           </div>
       </div>
     </>
