@@ -6,9 +6,7 @@ import {HeaderComponent} from "../../components/header/header.component";
 import {FooterComponent} from "../../components/footer/footer.component";
 
 export const MainPage = () => {
-  return (
-    <>
-      <div className='whole-page'>
+  return (<div className='whole-page'>
           <div className='wrapper'>
             <HeaderComponent />
               <div className='big-part'>
@@ -30,7 +28,5 @@ export const MainPage = () => {
               </div>
               <FooterComponent />
           </div>
-      </div>
-    </>
-  );
+      </div>);
 };

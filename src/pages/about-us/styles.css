@@ -1,0 +1,60 @@
+.about-us {
+    background-image: url("bck.jpg");
+    width: 100vw;
+    height: 1429px;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headingAbout {
+    font-weight: 800;
+    font-size: 55px;
+    text-align: center;
+}
+
+.textAbout {
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    color: #ECF1FF;
+}
+
+.bckImg {
+    background-image: url('./badBoy.jpg');
+    width: 590px;
+    height: 401px;
+    border-radius: 12px;
+    margin-top: 5%;
+}
+
+.smallHeading {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.text {
+    text-align: center;
+}
+
+.points {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-top: 3%;
+}
