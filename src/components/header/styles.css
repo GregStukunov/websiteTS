@@ -9,18 +9,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 15px;
 }
 
 .title {
-    width: 27%;
+    width: 300px;
 }
 
 .links {
-    width: 45%;
+    width: 500px;
 }
 
 .call {
-    width: 16%;
+    width: 150px;
 }
 
 .bgrndIMG {
@@ -36,10 +37,10 @@
 .contacts-text {
     font-weight: 400;
     text-align: right;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .phone-number {
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 700;
 }
