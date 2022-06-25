@@ -1,6 +1,19 @@
 .whole-page{
-    background: rgb(131,58,180);
-    background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-    width: 100vw;
-    height: 100vh;
+    /*background: rgb(131,58,180);*/
+    /*background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);*/
+    background-image: url("bck.jpg");
+    width: 98.93vw;
+    height: 1429px;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 70%;
+}
+
+.main-bckg-img {
+    background-image: url("./pose01_male.png");
+    width: 512px;
+    height: 738px;
 }

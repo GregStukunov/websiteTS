@@ -6,8 +6,12 @@ export const MainPage = () => {
   return (
     <>
       <div className='whole-page'>
-          <HeaderComponent />
-
+          <div className='wrapper'>
+            <HeaderComponent />
+              <div>
+              </div>
+              <div className="main-bckg-img"></div>
+          </div>
       </div>
     </>
   );

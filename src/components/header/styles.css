@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+}
+
+.flex-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    width: 27%;
+}
+
+.links {
+    width: 45%;
+}
+
+.call {
+    width: 16%;
+}
+
+.bgrndIMG {
+    background-image: url("logo.png");
+    width: 53px;
+    height: 53px;
+}
+
+.header-text {
+    font-weight: 600;
+}
+
+.contacts-text {
+    font-weight: 400;
+    text-align: right;
+    font-size: 14px;
+}
+
+.phone-number {
+    font-size: 18px;
+    font-weight: 700;
+}
