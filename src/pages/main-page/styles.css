@@ -10,8 +10,82 @@
     width: 70%;
 }
 
+.big-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.summary {
+    width: 600px;
+}
+
+.summaryInputs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    height: 100px;
+}
+
+.phone-input {
+    background-color: white;
+    width: 278px;
+    height: 65px;
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.phone-input:focus{
+    outline: none;
+    border: none;
+}
+
+.heading-head {
+    font-weight: 800;
+    font-size: 44px;
+}
+
+.submit {
+    width: 278px;
+    height: 65px;
+    background: #5D6AFB;
+    border-radius: 12px;
+    color: white;
+    border: none;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.submit:hover {
+    background-color: greenyellow;
+}
+
 .main-bckg-img {
     background-image: url("./pose01_male.png");
     width: 512px;
     height: 738px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.desc {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.num {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 143%;
 }
