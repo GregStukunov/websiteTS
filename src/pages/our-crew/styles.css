@@ -1,0 +1,48 @@
+.page {
+    background-image: url("bck.jpg");
+    width: 100vw;
+    height: 1429px;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mHead {
+    font-size: 45px;
+    text-align: center;
+}
+
+.badges {
+    width: 100%;
+}
+
+.line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 50px 0 0;
+}
+
+.borderIMG {
+    width: 250px;
+    height: 300px;
+}
+
+.badgeIMG {
+    border: black;
+}
+
+.name {
+    text-align: center;
+}
+
+.worksAs {
+    text-align: center;
+}
