@@ -1,0 +1,32 @@
+.contacts {
+    background-image: url("bck.jpg");
+    width: 100vw;
+    height: 1429px;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.heading-contact {
+    font-size: 45px;
+    text-align: center;
+}
+
+.real-contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactoo {
+    text-align: center;
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 140%;
+}
