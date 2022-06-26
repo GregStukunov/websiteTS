@@ -11,4 +11,9 @@ body {
 a {
   color: white;
   text-decoration: none;
+  transition: 0.5s;
+}
+
+a:hover {
+  color: #5D6AFB;
 }
