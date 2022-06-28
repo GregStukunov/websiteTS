@@ -3,8 +3,8 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
     margin-top: 23%;
-
 }
 
 .footer-texter {
@@ -17,4 +17,5 @@
 
 .foot-text {
     font-weight: 400;
+    text-align: center;
 }

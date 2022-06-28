@@ -10,21 +10,16 @@ export const MainPage = () => {
           <div className='wrapper'>
             <HeaderComponent />
               <div className='big-part'>
+                  <div className="main-bckg-img"></div>
                   <div className='summary'>
-                      <h1 className='heading-head'>Подберём вам лучший инвестиционный кейс<br/>за 1 час</h1>
-                      <p>Наши специалисты составят план инвестиций и проконсультируют вас по любым вопросам.
-                          Просто оставьте заявку и в ближайшее время с вами свяжется наш оператор.</p>
+                      <h1 className='heading-head'>Есть задачи для нас?</h1>
+                      <p>Заполните форму и мы с вами свяжемся</p>
                       <div className='summaryInputs'>
-                          <input type='text' placeholder='Укажите ваш номер телефона' className='phone-input' />
-                          <input type='submit' value='Начать инвестировать' className='submit' />
+                          <input type='text' placeholder='Номер телефона' className='phone-input' />
+                          <input type='text' placeholder='Почта' className='phone-input' />
+                          <input type='submit' value='Заказать расчёт цены' className='submit' />
                       </div>
                   </div>
-                  <div className="main-bckg-img"></div>
-              </div>
-              <div className='stats'>
-                  <div><p className='desc'><span className='num'>876</span><br />клиентов с 2016 года</p></div>
-                  <div><p className='desc'><span className='num'>94%</span><br />положительных отзывов</p></div>
-                  <div><p className='desc'><span className='num'>24/7</span><br />поддержка</p></div>
               </div>
               <FooterComponent />
           </div>

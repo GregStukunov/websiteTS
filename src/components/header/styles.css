@@ -1,3 +1,12 @@
+.full-header {
+    width: 100%;
+    height:200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -13,21 +22,26 @@
 }
 
 .title {
-    width: 300px;
+    width: 100%;
+    align-items: center;
 }
 
 .links {
     width: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 140px;
 }
 
 .call {
-    width: 180px;
+    width: 220px;
+    text-align: center;
 }
 
 .bgrndIMG {
     background-image: url("logo.png");
-    width: 53px;
-    height: 53px;
+    width: 116px;
+    height: 33px;
 }
 
 .header-text {
@@ -36,7 +50,7 @@
 
 .contacts-text {
     font-weight: 400;
-    text-align: right;
+    text-align: center;
     font-size: 13px;
 }
 

@@ -8,14 +8,17 @@ export const Vacancies = (props: any) => {
   return (<div className='vacancies'>
           <div className='wrapper'>
               <HeaderComponent />
-              {
-                  data === ''
-                      ? <div>{data.data}</div>
-                      :
-                      <h1 className='empty'>
-                        Empty...
-                      </h1>
-              }
+              <h1 className='empty'>О нас</h1>
+              <div className='allblc'>
+              <div className='block'>
+                  <div className='img'></div>
+                  <div className='img1'></div>
+              </div>
+              <div className='block'>
+                  <div className='img2'></div>
+                  <div className='img3'></div>
+              </div>
+              </div>
               <FooterComponent />
           </div>
       </div>);
